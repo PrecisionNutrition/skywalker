@@ -21,8 +21,8 @@ module Skywalker
       #
       # @since 2.2.0
       #
-      def call(*args)
-        new(*args).call
+      def call(*args, **kwargs)
+        new(*args, **kwargs).call
       end
     end
   end
